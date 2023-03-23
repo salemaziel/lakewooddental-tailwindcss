@@ -189,9 +189,9 @@ const handleScroll = useCallback(() => {
           <div className=" mt-0 py-0  flex bg-white justify-center text-center space-x-2 align-top items-center h-auto  px-3.5 w-full">
             <div className="flex flex-col items-center justify-center align-top">
               <img src={CarePay} alt="CarePayment" className="p-4 lg:p-4" />
-              <Link to="#" aria-label="visit" className="w-full focus:ring-2 text-white p-2.5 border-2 hover:border-logo-blue-500 hover:bg-white hover:text-logo-blue-500 bg-logo-blue-500 rounded-full">
+              <a href="https://www.carecredit.com/Pay/545QMH/&sitecode=B3CPLAdToolkitPMPCard" rel="noopener " aria-label="visit" className="w-full focus:ring-2 text-white p-2.5 border-2 hover:border-logo-blue-500 hover:bg-white hover:text-logo-blue-500 bg-logo-blue-500 rounded-full">
                 Pay Now
-              </Link>
+              </a>
             </div>
 
           </div>

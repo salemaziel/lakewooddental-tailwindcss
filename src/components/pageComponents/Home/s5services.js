@@ -1,5 +1,6 @@
 import React from "react";
 
+import { Link } from "gatsby";
 // https://www.affordablefamilydentistry.com/wp-content/uploads/2021/03/Group-1.png
 
 const S5services = (props) => {
@@ -14,7 +15,7 @@ const S5services = (props) => {
                     {props.items.map((item, index) => (
                         <div className="w-full px-4 mb-6 md:w-1/3 md:mb-0" key={index}>
                             <div className="flex flex-col justify-center mx-auto text-center max-w-xxs sm:max-w-sm" >
-                                <div className="flex items-center justify-center flex-shrink-0  mx-auto text-white rounded-md ">
+                                <div className="flex items-center justify-center flex-shrink-0 mx-auto text-white rounded-md ">
 
                                     <img src={item.Icon} alt={item.IconAlt} />
                                 </div>
@@ -29,7 +30,7 @@ const S5services = (props) => {
                     ))}
 
                 </div>
-                <div className=" flex mx-auto justify-center">  <button type="button" className=" text-center mt-5 text-white bg-[#1F3B53] hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-base uppercase px-16 py-2.5 mr-2 mb-2 dark:bg-[#1F3B53] dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">View all Services</button> </div>
+                <div className="flex justify-center mx-auto ">  <Link to="/services" type="button" className=" text-center mt-5 text-white bg-[#1F3B53] hover:bg-dark-blue-500 focus:bg-dark-blue-500 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-base uppercase px-16 py-2.5 mr-2 mb-2 dark:bg-[#1F3B53] dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">View all Services</Link> </div>
                
             </div>
         </section>
