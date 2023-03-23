@@ -3,6 +3,7 @@ import SerHero from '../Services/serhero';
 import BG from "../../../images/serhero.png";
 import Footer from '../../layout/footer';
 
+import S1Blog from './s1Blog';
 
 const DentalAdvice = () => {
     return (
@@ -11,6 +12,7 @@ const DentalAdvice = () => {
                 bgImage={BG}
                 pageTitle="Dental Advice"
             />
+            <S1Blog />
             <Footer />
         </>
     );

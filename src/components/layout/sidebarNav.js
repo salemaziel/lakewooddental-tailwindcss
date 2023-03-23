@@ -152,7 +152,7 @@ const handleScroll = useCallback(() => {
               </div>
             </div>
             <div className="flex items-center justify-start w-full py-1 pl-4 space-x-6 text-gray-600 rounded focus:outline-none">
-              <p className="text-sm leading-4 lg:text-md "> <span className="text-[#4294C2]">FAX:  </span> (555)555-5555</p>
+              <p className="text-sm leading-4 lg:text-md "> <span className="text-[#4294C2]">FAX:  </span> (562) 867-2091</p>
             </div>
           </div>
 

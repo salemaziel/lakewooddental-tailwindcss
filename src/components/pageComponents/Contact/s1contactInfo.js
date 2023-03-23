@@ -1,5 +1,6 @@
 import React from "react";
 
+import { FaFax } from "react-icons/fa";
 
 
 const ContactInfo = () => {
@@ -7,11 +8,11 @@ const ContactInfo = () => {
 <section className="pt-20 bg-white" style={{backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")', backgroundPosition: 'center'}}>
   <div className="container px-4 mx-auto">
     <div className="max-w-4xl mx-auto mb-16 text-center">
-      <h3 className="mb-4 text-4xl font-bold leading-tight tracking-tighter md:text-5xl text-darkCoolGray-900">Let’s stay connected</h3>
-      <p className="text-lg font-medium md:text-xl text-coolGray-500">It's never been easier to get in touch with Flex. Call us, use our live chat widget or email and we'll get back to you as soon as possible!</p>
+      <h3 className="mb-4 text-4xl font-bold leading-normal tracking-normal md:text-5xl text-darkCoolGray-900">Contact Our Office</h3>
+      <p className="text-lg font-medium md:text-xl text-coolGray-500"></p>
     </div>
     <div className="flex flex-wrap pb-16 -mx-4">
-      <div className="w-full px-4 mb-10 md:w-1/3 md:mb-0">
+      <div className="w-full px-4 mb-10 md:w-1/4 md:mb-0">
         <div className="max-w-xs mx-auto text-center">
           <a href="mailto:jamesleedds@lakewooddental.com"  className="inline-flex items-center justify-center w-12 h-12 mb-6 rounded-full bg-logo-blue-500">
             <svg className="h-6 text-white" width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,10 +22,10 @@ const ContactInfo = () => {
           <a href="mailto:jamesleedds@lakewooddental.com" >
           <h3 className="mb-2 text-2xl font-bold leading-9 md:text-3xl text-coolGray-800">Email</h3>
           </a>
-          <a  className="text-xl font-medium break-words text-coolGray-500 hover:text-coolGray-600" href="mailto:jamesleedds@lakewooddental.com">jamesleedds@lakewooddental.com</a>
+          <a  className="text-xl font-medium break-words lg:break-normal text-coolGray-500 hover:text-coolGray-600" href="mailto:jamesleedds@lakewooddental.com">jamesleedds@lakewooddental.com</a>
         </div>
       </div>
-      <div className="w-full px-4 mb-10 md:w-1/3 md:mb-0">
+      <div className="w-full px-4 mb-10 md:w-1/4 md:mb-0">
         <div className="max-w-xs mx-auto text-center">
           <a href="tel:5628671753" className="inline-flex items-center justify-center w-12 h-12 mb-6 rounded-full bg-logo-blue-500">
             <svg className="h-6 text-white" width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +38,18 @@ const ContactInfo = () => {
           <a href="tel:5628671753"  className="text-xl font-medium text-coolGray-500">(562) 867-1753</a>
         </div>
       </div>
-      <div className="w-full px-4 md:w-1/3">
+      <div className="w-full px-4 mb-10 md:w-1/4 md:mb-0">
+        <div className="max-w-xs mx-auto text-center">
+          <div href="tel:5628671753" className="inline-flex items-center justify-center w-12 h-12 mb-6 rounded-full bg-logo-blue-500">
+          <FaFax className="h-6 text-white" />
+          </div>
+          <div className="">
+          <h3 className="mb-2 text-2xl font-bold leading-9 md:text-3xl text-coolGray-800">Fax</h3>
+          </div>
+          <p href="tel:5628671753"  className="text-xl font-medium text-coolGray-500">(562) 867-2091</p>
+        </div>
+      </div>
+      <div className="w-full px-4 md:w-1/4">
         <div className="max-w-xs mx-auto text-center">
           <div className="inline-flex items-center justify-center w-12 h-12 mb-6 rounded-full bg-logo-blue-500">
             <svg className="h-6 text-white" width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
