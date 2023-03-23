@@ -12,7 +12,7 @@ const Banner = () => {
             </svg>
 
           </div>
-          <span className="flex text-base font-semibold leading-loose tracking-wider text-white">20% Senior Discount (from usual and customary fees) for those 65 and over with no insurance!</span>
+          <div className="flex text-base font-semibold leading-loose tracking-wider text-white">20% Senior Discount (from usual and customary fees) for those 65 and over with no insurance!</div>
        
         <div className="flex items-center align-baseline lg:pl-4">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-white">
