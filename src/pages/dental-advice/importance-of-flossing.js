@@ -3,7 +3,7 @@ import Layout from "../../components/layout/layout"
 import Seo from "../../components/seo"
 
 import BlogPost from "../../components/pageComponents/DentalAdvice/blogPost"
-
+import Footer from "../../components/layout/footer"
 const Flossing = () => (
     <Layout>
 
@@ -49,7 +49,7 @@ const Flossing = () => (
 
                 </>
             ]} />
-
+<Footer />
     </Layout>
 
 )

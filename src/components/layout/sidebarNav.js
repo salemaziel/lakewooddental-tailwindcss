@@ -7,15 +7,20 @@ import ADA from "../../images/ada-logo.png";
 import CDA from "../../images/cda-logo.png";
 import Harbor from "../../images/harbor-logo.png";
 import CarePay from "../../images/carecredit.svg";
-import facebook from '../../images/social/facebook.svg';
 
-import linkedin from '../../images/social/linkdin.svg';
+
+import { FaFacebook, FaLinkedin } from 'react-icons/fa';
 
 //function SidebarNav(props) {
 const SidebarNav = (props) => {
   const [show, setShow] = useState(false);
   const [scroll, setScroll] = useState(false);
-//  const [bodyOverflow, setBodyOverflow] = useState('auto');
+  const [copySuccess, setCopySuccess] = useState('');
+
+
+    
+    
+    //  const [bodyOverflow, setBodyOverflow] = useState('auto');
 
 /*  useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -34,6 +39,16 @@ useEffect(() => {
 const handleScroll = useCallback(() => {
   setScroll(window.scrollY > 10);
 }, []);
+
+
+
+const handleCopy = () => {
+  const phoneNumber = '562-867-2091';
+  navigator.clipboard.writeText(phoneNumber)
+  .then(() => setCopySuccess('Copied!'))
+  .catch(() => setCopySuccess('Failed to copy'));
+}
+
 /*
   useEffect(() => {
     setBodyOverflow(show ? 'hidden' : 'auto');
@@ -148,11 +163,12 @@ const handleScroll = useCallback(() => {
             <div className="flex items-center justify-start w-full p-3 py-1 pl-4 text-gray-600 rounded focus:outline-none ">
               <div className="flex items-center justify-start w-full">
 
-                <p className="mb-0 text-sm leading-4 lg:text-md"> <span className="text-[#4294C2]">PH:  </span>   (562) 867-1753</p>
+                <a href="tel:5628671753" className="mb-0 text-sm leading-4 cursor-pointer lg:text-md"> <span className="text-[#4294C2]">PH:  </span>   (562) 867-1753</a>
               </div>
             </div>
-            <div className="flex items-center justify-start w-full py-1 pl-4 space-x-6 text-gray-600 rounded focus:outline-none">
-              <p className="mb-0 text-sm leading-4 lg:text-md"> <span className="text-[#4294C2]">FAX:  </span> (562) 867-2091</p>
+            <div className="flex items-center justify-start w-full py-1 pl-4 space-x-6 text-gray-600 rounded focus:outline-none" >
+            
+              <p className="mb-0 text-sm leading-4 cursor-pointer lg:text-md" onClick={handleCopy}> <span className={ (copySuccess ? "flex text-light-blue-500 font-semibold text-base  " : "hidden " ) + " text-[#4294C2]"}> {copySuccess}</span><span className="text-[#4294C2]">FAX:  </span> (562) 867-2091</p>
             </div>
           </div>
 
@@ -178,8 +194,15 @@ const handleScroll = useCallback(() => {
           <div className="flex flex-col items-center justify-center w-full px-4 text-center">
             <h3 className="text-lg md:mb-2"> Follow Us</h3>
             <div className="flex ">
-            <img className="mr-5 text-white" src={facebook} alt="footerlogo" />
-                <img src={linkedin} alt="footerlogo" />
+            <a href="https://www.facebook.com/JamesLeeDDS" rel="noopener noreferrer" target="_blank">
+            {/*<img className="mr-5 text-white" src={facebook} alt="footerlogo" />*/}
+            <FaFacebook size="1.5rem" className="mr-5 text-logo-blue-500" />
+            
+            </a>
+            <a href="https://www.linkedin.com/pub/james-lee/74/316/415" rel="noopener noreferrer" target="_blank">
+            {/*<img src={linkedin} alt="footerlogo" />*/}
+            <FaLinkedin size="1.5rem" className="mr-5 text-logo-blue-500" />
+            </a>
                </div>
          
                

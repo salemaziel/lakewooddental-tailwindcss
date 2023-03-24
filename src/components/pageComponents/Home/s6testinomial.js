@@ -1,6 +1,6 @@
 import React from "react";
-import teamImg from '../../../images/teamim.png';
-import tesimg from '../../../images/container02.jpg';
+//import teamImg from '../../../images/teamim.png';
+//import tesimg from '../../../images/container02.jpg';
 import forward from '../../../images/forward.png';
 import backward from '../../../images/backward.png';
 const S6testinomial = () => {
@@ -16,7 +16,7 @@ const S6testinomial = () => {
 <br/>
 M.S.</p>
 </div>
-<div className="flex justify-center w-1/6"> <img src={backward} /> </div>
+<div className="flex justify-center w-1/6"> <img src={backward} alt='' /> </div>
             </div>
           
 

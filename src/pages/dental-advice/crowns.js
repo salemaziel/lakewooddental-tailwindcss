@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../../components/layout/layout"
 import Seo from "../../components/seo"
-
+import Footer from "../../components/layout/footer"
 import BlogPost from "../../components/pageComponents/DentalAdvice/blogPost"
 const Crowns = () => (
     <Layout>
@@ -52,6 +52,8 @@ const Crowns = () => (
                     Each material has unique characteristics of esthetics, strength, and durability. Considerations for which is the most suitable material include tooth location, the shade and coloration of the tooth, the position of the surrounding gum tissue, the biting forces on the tooth, and the patient’s preference.</p>
                 </>
             ]} />
+
+        <Footer />
     </Layout>
 
 )

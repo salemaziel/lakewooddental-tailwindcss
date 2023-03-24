@@ -3,6 +3,7 @@ import Layout from "../../components/layout/layout"
 import Seo from "../../components/seo"
 
 import BlogPost from "../../components/pageComponents/DentalAdvice/blogPost"
+
 import Footer from "../../components/layout/footer"
 
 const CrackedTeeth = () => (
@@ -40,7 +41,7 @@ const CrackedTeeth = () => (
 
                 </>
             ]} />
-
+        <Footer />
 
     </Layout>
 

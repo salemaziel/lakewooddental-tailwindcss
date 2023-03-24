@@ -3,6 +3,7 @@ import Layout from "../../components/layout/layout"
 import Seo from "../../components/seo"
 
 import ServiceTemplate from "../../components/pageComponents/Services/serviceTemplate"
+import Footer from "../../components/layout/footer"
 
 const TeethWhitening = () => (
     <Layout>
@@ -32,7 +33,7 @@ const TeethWhitening = () => (
 
                 </>
             ]} />
-
+<Footer />
     </Layout>
 
 )

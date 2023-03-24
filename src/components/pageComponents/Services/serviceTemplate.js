@@ -3,7 +3,7 @@ import SerHero from "./serhero";
 
 import BG from "../../../images/serhero.png";
 
-import { Link } from "gatsby";
+
 
 const ServiceTemplate = (props) => {
     return (
