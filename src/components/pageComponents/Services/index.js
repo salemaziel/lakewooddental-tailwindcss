@@ -5,6 +5,7 @@ import Prevention from './sers2';
 import Restoration from './s3service';
 import Cosmetics from './s4service';
 import Implants from './s5service';
+import Whitening from './s7service';
 import Footer from '../../layout/footer';
 import SerBanner from './serbanner';
 import SerLast from './s6service';
@@ -20,6 +21,7 @@ function ServicesPage() {
       <Restoration/>
       <Cosmetics/>
       <Implants/>
+      <Whitening/>
       <SerLast
          bgImage={servbottom}
       />

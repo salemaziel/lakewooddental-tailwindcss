@@ -24,8 +24,8 @@ module.exports = {
 				name: `Lakewood Dental`,
 				short_name: `Lakewood Dental`,
 				start_url: `/`,
-				background_color: `#663399`,
-				theme_color: `#663399`,
+				background_color: `#4294C2`,
+				theme_color: `#1F3B53`,
 				display: `minimal-ui`,
 				icon: `src/images/favion.png` // This path is relative to the root of the site.
 			}

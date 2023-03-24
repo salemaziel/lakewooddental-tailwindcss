@@ -38,11 +38,6 @@ const S1Blog = (props) => {
                                 imageAlt: "Flossing",
                                 excerpt: "When we eat, some of the food that is not digested stays trapped in the cavities of your teeth. If these particles stay there for a long time, this can result in the growth of bacteria and decay of teeth. Knowing this, now we can see the benefits of flossing in day to day life.",
                                 slug: "importance-of-flossing",
-                                title2: "Dental Implants",
-                                image2: "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=968&q=80",
-                                imageAlt2: "Dental Implants",
-                                excerpt2: "Dental implants are artificial tooth roots that are placed into your jaw to hold a replacement tooth or bridge. Dental implants are an ideal option for people in good general oral health who have lost a tooth or teeth due to periodontal disease, an injury, or some other reason.",
-                                slug2: "dental-implants"
                             },
 
                         ]}
@@ -97,7 +92,7 @@ const S1Blog = (props) => {
                             <a className="font-bold text-green-600 hover:text-green-700" href="#">Learn More</a>
                         </div>
                     </div>*/}
-                    <div className="flex justify-center">
+                    {/*<div className="flex justify-center">
                         <nav className="flex items-center bg-white rounded shadow" aria-label="Pagination"><a className="px-4 text-gray-400 hover:text-gray-500" href="#">
                             <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg></a>
                             <div className="p-2 text-gray-500 border-l border-r">
@@ -107,7 +102,7 @@ const S1Blog = (props) => {
                             </div>
                             <a className="px-4 text-gray-400 hover:text-gray-500" href="#">
                                 <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg></a>
-                        </nav></div>
+                        </nav></div>*/}
                 </div>
             </div>
             <div className="skew skew-bottom mr-for-radius">

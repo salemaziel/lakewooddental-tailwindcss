@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../../components/layout/layout"
-import SEO from "../../components/seo"
+import Seo from "../../components/seo"
 
 import BlogPost from "../../components/pageComponents/DentalAdvice/blogPost"
 import Footer from "../../components/layout/footer"
@@ -9,8 +9,6 @@ const CrackedTeeth = () => (
     <Layout>
         <BlogPost
             title="Cracked Teeth"
-            date="May 20, 2020"
-            author="Dr. John Doe"
             image="https://images.unsplash.com/photo-1589950000000-0c0c0c0c0c0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
             imageAlt="Cracked Teeth"
             post={[
@@ -51,5 +49,5 @@ const CrackedTeeth = () => (
 export default CrackedTeeth
 
 export const Head = () => (
-    <SEO title="Cracked Teeth" />
+    <Seo title="Cracked Teeth" />
 )

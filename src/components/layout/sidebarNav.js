@@ -148,11 +148,11 @@ const handleScroll = useCallback(() => {
             <div className="flex items-center justify-start w-full p-3 py-1 pl-4 text-gray-600 rounded focus:outline-none ">
               <div className="flex items-center justify-start w-full">
 
-                <p className="text-sm leading-4 lg:text-md"> <span className="text-[#4294C2]">PH:  </span>   (562) 867-1753</p>
+                <p className="mb-0 text-sm leading-4 lg:text-md"> <span className="text-[#4294C2]">PH:  </span>   (562) 867-1753</p>
               </div>
             </div>
             <div className="flex items-center justify-start w-full py-1 pl-4 space-x-6 text-gray-600 rounded focus:outline-none">
-              <p className="text-sm leading-4 lg:text-md "> <span className="text-[#4294C2]">FAX:  </span> (562) 867-2091</p>
+              <p className="mb-0 text-sm leading-4 lg:text-md"> <span className="text-[#4294C2]">FAX:  </span> (562) 867-2091</p>
             </div>
           </div>
 
@@ -165,7 +165,7 @@ const handleScroll = useCallback(() => {
           <div className="flex flex-col items-start justify-start w-full px-4 mt-2 space-x-6 space-y-3 text-left lg:pb-5 lg:mt-6 ">
             <div className="flex flex-col items-start justify-start w-full text-gray-600">
 
-              <p className="pb-4 pl-4 text-base leading-4 text-left">Member of</p>
+              <p className="pb-4 pl-4 mb-0 text-base leading-4 text-left">Member of</p>
               <div className="flex flex-wrap items-center w-full justify-evenly lg:justify-evenly">
                 <img src={ADA} alt="ADA" className="inline-flex pr-2" />
                 <img src={CDA} alt="CDA" className="inline-flex pl-2" />
