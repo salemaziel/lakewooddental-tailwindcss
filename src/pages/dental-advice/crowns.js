@@ -3,11 +3,18 @@ import Layout from "../../components/layout/layout"
 import Seo from "../../components/seo"
 import Footer from "../../components/layout/footer"
 import BlogPost from "../../components/pageComponents/DentalAdvice/blogPost"
+
+import Crown from "../../images/2023/anatomy-and-crown.jpg"
+
+import CTA from "../../components/bottomCTA"
+import BGCTA from "../../images/botbg.png"
+
+
 const Crowns = () => (
     <Layout>
         <BlogPost
             title="Crowns"
-            image="https://images.unsplash.com/photo-1589950000000-0c0c0c0c0c0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+            image={Crown}
             imageAlt="Cracked Teeth"
             post={[
                 <>
@@ -52,7 +59,9 @@ const Crowns = () => (
                     Each material has unique characteristics of esthetics, strength, and durability. Considerations for which is the most suitable material include tooth location, the shade and coloration of the tooth, the position of the surrounding gum tissue, the biting forces on the tooth, and the patient’s preference.</p>
                 </>
             ]} />
-
+        <CTA
+          bgImage={BGCTA}
+        />
         <Footer />
     </Layout>
 

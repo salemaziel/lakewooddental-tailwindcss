@@ -8,8 +8,16 @@ import CDA from "../../images/cda-logo.png";
 import Harbor from "../../images/harbor-logo.png";
 import CarePay from "../../images/carecredit.svg";
 
+import { Tooltip } from 'react-tooltip';
+import 'react-tooltip/dist/react-tooltip.css';
 
 import { FaFacebook, FaLinkedin } from 'react-icons/fa';
+
+
+
+
+
+
 
 //function SidebarNav(props) {
 const SidebarNav = (props) => {
@@ -45,7 +53,12 @@ const handleScroll = useCallback(() => {
 const handleCopy = () => {
   const phoneNumber = '562-867-2091';
   navigator.clipboard.writeText(phoneNumber)
-  .then(() => setCopySuccess('Copied!'))
+  .then(() => {
+    setCopySuccess('Copied!');
+    setTimeout(() => {
+      setCopySuccess('');
+    }, 5000);
+  })
   .catch(() => setCopySuccess('Failed to copy'));
 }
 
@@ -166,9 +179,10 @@ const handleCopy = () => {
                 <a href="tel:5628671753" className="mb-0 text-sm leading-4 cursor-pointer lg:text-md"> <span className="text-[#4294C2]">PH:  </span>   (562) 867-1753</a>
               </div>
             </div>
-            <div className="flex items-center justify-start w-full py-1 pl-4 space-x-6 text-gray-600 rounded focus:outline-none" >
+            <div className="flex items-center justify-start w-full py-1 pl-4 space-x-6 text-gray-600 rounded focus:outline-none" data-tooltip-id="clickcopy" data-tooltip-content="Click to Copy">
             
-              <p className="mb-0 text-sm leading-4 cursor-pointer lg:text-md" onClick={handleCopy}> <span className={ (copySuccess ? "flex text-light-blue-500 font-semibold text-base  " : "hidden " ) + " text-[#4294C2]"}> {copySuccess}</span><span className="text-[#4294C2]">FAX:  </span> (562) 867-2091</p>
+              <p className="mb-0 text-sm leading-4 cursor-pointer lg:text-md" onClick={handleCopy}> <span className={ (copySuccess ? "flex text-light-blue-500 font-semibold text-base  " : "hidden " ) + " text-[#4294C2]"}> {copySuccess}</span><span className="text-[#4294C2]" >FAX:  </span> (562) 867-2091</p>
+              <Tooltip id="clickcopy" />
             </div>
           </div>
 

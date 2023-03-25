@@ -5,6 +5,9 @@ import Seo from "../../components/seo"
 import ServiceTemplate from "../../components/pageComponents/Services/serviceTemplate"
 import Footer from "../../components/layout/footer"
 
+import CTA from "../../components/bottomCTA"
+import BGCTA from "../../images/botbg.png"
+
 const TeethWhitening = () => (
     <Layout>
 
@@ -33,6 +36,11 @@ const TeethWhitening = () => (
 
                 </>
             ]} />
+
+<CTA
+bgImage={BGCTA}
+/>
+
 <Footer />
     </Layout>
 

@@ -14,7 +14,7 @@ const S5services = (props) => {
 
                     {props.items.map((item, index) => (
                         <div className="w-full px-4 mb-6 md:w-1/3 md:mb-0" key={index}>
-                            <div className="flex flex-col justify-center mx-auto text-center max-w-xxs sm:max-w-sm" >
+                            <Link to={"/services/" + `${item.slug}`} className="flex flex-col justify-center mx-auto text-center max-w-xxs sm:max-w-sm" >
                                 <div className="flex items-center justify-center flex-shrink-0 mx-auto text-white rounded-md ">
 
                                     <img src={item.Icon} alt={item.IconAlt} />
@@ -23,7 +23,7 @@ const S5services = (props) => {
                                     <h4 className="mb-2 mt-2 text-lg text-[#1F3B53] font-heading font-semibold">{item.IconTitle}</h4>
                                     <p className="text-[#323232] text-base">{item.IconSubtitle}</p>
                                 </div>
-                            </div>
+                            </Link>
 
 
                         </div>

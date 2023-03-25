@@ -2,7 +2,9 @@ import React from "react";
 import { Link } from "gatsby";
 
 import BlogExcerpt from "./blogExcerpt";
-
+import Crown from "../../../images/2023/crown.jpg"
+import Cracked from "../../../images/2023/cracked-tooth.jpg"
+import Flossing from "../../../images/2023/floss.jpg"
 
 const S1Blog = (props) => {
     return (
@@ -22,19 +24,19 @@ const S1Blog = (props) => {
                         items={[
                             {
                                 title: "Crowns",
-                                image: "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=968&q=80",
+                                image: Crown,
                                 imageAlt: "Dental Crowns",
                                 excerpt: "A dental crown, sometimes referred to as a cap, is a tooth-shaped cover that is placed over a tooth to restore its shape, size, strength, and improve its appearance. Crowns are typically used to restore a tooth that is badly decayed or becomes damaged.",
                                 slug: "crowns",
                                 title2: "Cracked Teeth",
-                                image2: "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=968&q=80",
+                                image2: Cracked,
                                 imageAlt2: "Cracked Teeth",
                                 excerpt2: "Many teeth, when carefully viewed, may exhibit small crack lines in the enamel. A more deeply cracked tooth may become noticeable when you feel a sharp pain when chewing food or with having a hot or cold drink. It is sometimes difficult to tell which tooth hurts or whether the pain comes from an upper or lower tooth.",
                                 slug2: "cracked-teeth"
                             },
                             {
                                 title: "Importance of Flossing",
-                                image: "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=968&q=80",
+                                image: Flossing,
                                 imageAlt: "Flossing",
                                 excerpt: "When we eat, some of the food that is not digested stays trapped in the cavities of your teeth. If these particles stay there for a long time, this can result in the growth of bacteria and decay of teeth. Knowing this, now we can see the benefits of flossing in day to day life.",
                                 slug: "importance-of-flossing",

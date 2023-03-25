@@ -27,6 +27,9 @@ import service3img from '../../../images/service3.png';
 import S6testinomial from "./s6testinomial";
 import S7fees from "./s7fees";
 
+import CTA from "../../bottomCTA"
+import BGCTA from '../../../images/botbg.png';
+
 const Home = () => {
   return (
     <>
@@ -78,18 +81,21 @@ const Home = () => {
           IconAlt: "Tooth Icon",
           IconTitle: "Prevention",
           IconSubtitle: "Preventative dentistry is the use of dental procedures to ensure that your teeth and gums",
+          slug: "prevention",
         },
         {
           Icon: `${service2img}`,
           IconAlt: "Tooth Icon",
           IconTitle: "Restoration",
           IconSubtitle: "At Lakewood Dental Care, we work to restore your teeth back to their original state.",
+          slug: "restoration",
         },
         {
           Icon: `${service3img}`,
           IconAlt: "Tooth Icon",
           IconTitle: "Cosmetics",
           IconSubtitle: "At Lakewood Dental Care we make sure that your teeth look their best.",
+          slug: "cosmetics",
         },
     
      
@@ -97,6 +103,9 @@ const Home = () => {
        />
        <S6testinomial/>
        <S7fees/>
+        <CTA
+          bgImage={BGCTA}
+        />
        <Footer/>
 
     </>

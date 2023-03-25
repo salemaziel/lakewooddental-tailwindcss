@@ -5,6 +5,9 @@ import Footer from '../../layout/footer';
 
 import S1Blog from './s1Blog';
 
+import CTA from "../../bottomCTA"
+import BGCTA from '../../../images/botbg.png';
+
 const DentalAdvice = () => {
     return (
         <>
@@ -13,6 +16,9 @@ const DentalAdvice = () => {
                 pageTitle="Dental Advice"
             />
             <S1Blog />
+            <CTA
+          bgImage={BGCTA}
+        />
             <Footer />
         </>
     );

@@ -4,6 +4,11 @@ import Seo from "../../components/seo"
 
 import ServiceTemplate from "../../components/pageComponents/Services/serviceTemplate"
 import Footer from "../../components/layout/footer"
+
+import CTA from "../../components/bottomCTA"
+import BGCTA from "../../images/botbg.png"
+
+
 const Restoration = () => (
     <Layout>
         <ServiceTemplate
@@ -33,8 +38,9 @@ const Restoration = () => (
                     By offering these dental restoration services, we aim to help our patients achieve a healthy, functional, and beautiful smile. Our team will work with you to determine the best restoration options for your individual needs and goals.</p>
 
                 </>
-            ]} />
-
+            ]} /><CTA
+bgImage={BGCTA}
+/>
             <Footer />
     </Layout>
 

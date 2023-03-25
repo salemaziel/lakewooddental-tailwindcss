@@ -5,6 +5,11 @@ import Seo from "../../components/seo"
 import ServiceTemplate from "../../components/pageComponents/Services/serviceTemplate"
 import Footer from "../../components/layout/footer"
 
+import CTA from "../../components/bottomCTA"
+import BGCTA from "../../images/botbg.png"
+
+
+
 const Prevention = () => (
     <Layout>
 
@@ -38,6 +43,10 @@ const Prevention = () => (
 
                 </>
             ]} />
+
+<CTA
+bgImage={BGCTA}
+/>
         <Footer />
     </Layout>
 

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
 import { FaFax } from "react-icons/fa";
-
+import { Tooltip } from 'react-tooltip';
+import 'react-tooltip/dist/react-tooltip.css';
 
 const ContactInfo = () => {
   const [copySuccess, setCopySuccess] = useState('');
@@ -9,7 +10,12 @@ const ContactInfo = () => {
   const handleCopy = () => {
     const phoneNumber = '562-867-2091';
     navigator.clipboard.writeText(phoneNumber)
-    .then(() => setCopySuccess('Copied!'))
+    .then(() => {
+      setCopySuccess('Copied!');
+      setTimeout(() => {
+        setCopySuccess('');
+      }, 5000);
+    })
     .catch(() => setCopySuccess('Failed to copy'));
   }
 
@@ -47,8 +53,8 @@ const ContactInfo = () => {
           <a href="tel:5628671753"  className="text-xl font-medium cursor-pointer text-coolGray-500">(562) 867-1753</a>
         </div>
       </div>
-      <div className="w-full px-4 mb-10 md:w-1/4 md:mb-0">
-        <div className="max-w-xs mx-auto text-center cursor-pointer" onClick={handleCopy}> <span className={ (copySuccess ? "flex text-light-blue-500 font-semibold text-base text-center justify-center -mt-6 " : "hidden " ) + " text-[#4294C2]"}> {copySuccess}</span>
+      <div className="w-full px-4 mb-10 md:w-1/4 md:mb-0" data-tooltip-id="click2copy" data-tooltip-content="Click to Copy">
+        <div className="max-w-xs mx-auto text-center cursor-pointer" onClick={handleCopy}> <span className={ (copySuccess ? "flex text-light-blue-500 font-semibold text-base text-center justify-center -mt-6 " : "hidden " ) + " text-[#4294C2]"} > {copySuccess}</span>
           <div href="tel:5628671753" className="inline-flex items-center justify-center w-12 h-12 mb-6 rounded-full bg-logo-blue-500">
           <FaFax className="h-6 text-white" />
           </div>
@@ -56,6 +62,7 @@ const ContactInfo = () => {
           <h3 className="mb-2 text-2xl font-bold leading-9 md:text-3xl text-coolGray-800">Fax</h3>
           </div>
           <p href="tel:5628671753"  className="text-xl font-medium text-coolGray-500">(562) 867-2091</p>
+          <Tooltip id="click2copy" />
         </div>
       </div>
       <div className="w-full px-4 md:w-1/4">

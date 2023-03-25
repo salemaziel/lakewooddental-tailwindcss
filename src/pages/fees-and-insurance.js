@@ -16,5 +16,5 @@ const FessInsurance = () => (
 export default FessInsurance;
 
 export const Head = () => (
-    <Seo title="Insurance" />
+    <Seo title="Fees and Insurance" />
     )

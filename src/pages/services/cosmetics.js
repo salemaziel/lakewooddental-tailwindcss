@@ -5,6 +5,10 @@ import Seo from "../../components/seo"
 import ServiceTemplate from "../../components/pageComponents/Services/serviceTemplate"
 import Footer from "../../components/layout/footer"
 
+import CTA from "../../components/bottomCTA"
+import BGCTA from "../../images/botbg.png"
+
+
 const Cosmetics = () => (
     <Layout>
 
@@ -37,6 +41,9 @@ const Cosmetics = () => (
 
                 </>
             ]} />
+            <CTA
+bgImage={BGCTA}
+/>
             <Footer />
     </Layout>
 

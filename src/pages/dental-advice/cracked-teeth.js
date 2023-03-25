@@ -6,6 +6,10 @@ import BlogPost from "../../components/pageComponents/DentalAdvice/blogPost"
 
 import Footer from "../../components/layout/footer"
 
+import CTA from "../../components/bottomCTA"
+import BGCTA from "../../images/botbg.png"
+
+
 const CrackedTeeth = () => (
     <Layout>
         <BlogPost
@@ -41,6 +45,9 @@ const CrackedTeeth = () => (
 
                 </>
             ]} />
+            <CTA
+bgImage={BGCTA}
+/>
         <Footer />
 
     </Layout>

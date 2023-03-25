@@ -4,6 +4,11 @@ import Seo from "../../components/seo"
 
 import BlogPost from "../../components/pageComponents/DentalAdvice/blogPost"
 import Footer from "../../components/layout/footer"
+
+import CTA from "../../components/bottomCTA"
+import BGCTA from "../../images/botbg.png"
+
+
 const Flossing = () => (
     <Layout>
 
@@ -19,23 +24,23 @@ const Flossing = () => (
 
                     <p>Dental floss is made of thin plastic or nylon filaments and is used to remove food and plaque from the teeth. This flossing of teeth can help us in the following manner:</p>
                     <ol>
-                        <li> Remove Bad Breath</li>
+                        <li><strong> Remove Bad Breath</strong></li>
                         <p>There are about 90% of people who have bad breath problem because of odor-causing bacteria. It is known that brushing the teeth removes only 70% of these bacteria. We can remove remaining thirty percent with the help of flossing.</p>
                         <p>Floss is thin and reaches in between small cavities of teeth and also gum-line where bristles would never reach. This helps to remove odor-causing bacteria.</p>
 
-                        <li>Prevents the Development of Tartar</li>
+                        <li><strong>Prevents the Development of Tartar</strong></li>
                         <p>Flossing helps to prevent the formation of tartar, also known as calculus which can be removed only by a dentist.</p>
 
-                        <li> Removes Tiny Food Particles</li>
+                        <li><strong> Removes Tiny Food Particles</strong></li>
                         <p>Regular flossing removes tiny food content that gets entrapped within the small cavities of teeth.</p>
 
-                        <li>Protects from Heart Attack</li>
+                        <li><strong>Protects from Heart Attack</strong></li>
                         <p>It is known that, presence of unwanted particles in teeth cavities leads to gum diseases. There are chances that these diseases can cause risk of a heart attack. Regular flossing stops the rate of gum diseases and as a result protects a person form massive heart attack.</p>
 
-                        <li>Protects People from Gingivitis</li>
+                        <li><strong>Protects People from Gingivitis</strong></li>
                         <p>Bacteria present in tartar / calculus produce acids that can damage the gums and also cause swelling gum. This condition is called gingivitis. Time to time elimination of bacteria helps in defending people form gingivitis.</p>
 
-                        <li>Protects from Tooth Loss</li>
+                        <li><strong>Protects from Tooth Loss</strong></li>
                         <p>Untreated gingivitis can lead to periodontal disease and causes tooth loss. Removal of bacteria using flossing technique can prevent the occurrence of gingivitis.</p>
                     </ol>
 
@@ -49,6 +54,9 @@ const Flossing = () => (
 
                 </>
             ]} />
+            <CTA
+bgImage={BGCTA}
+/>
 <Footer />
     </Layout>
 

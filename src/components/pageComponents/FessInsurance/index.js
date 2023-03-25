@@ -26,6 +26,9 @@ import prudical from '../../../images/ppo-insurance/Group 67.png';
 import safehealth from '../../../images/ppo-insurance/Group 68.png';
 import united from '../../../images/ppo-insurance/Group 69.png';
 
+import CTA from "../../bottomCTA"
+import BGCTA from '../../../images/botbg.png';
+
 function InsurancePage() {
     return (<>
    <SerHero
@@ -118,6 +121,9 @@ function InsurancePage() {
           },
         ]}
        />
+               <CTA
+          bgImage={BGCTA}
+        />
       <Footer/>
     </>  );
 }

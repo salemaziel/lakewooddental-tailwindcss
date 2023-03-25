@@ -8,7 +8,7 @@ const SerHero = (props) => {
                 <div className="container px-4 mx-auto">
                     <div className=" text-start">
                         
-                        <h1 className="py-8 pl-4 mb-6 text-5xl font-semibold tracking-widest text-white text-start font-heading font-poppins">{props.pageTitle}</h1>
+                        <h1 className="py-12 pb-8 pl-4 mb-6 text-5xl font-medium tracking-wide text-white lg:font-semibold text-start font-heading font-poppins">{props.pageTitle}</h1>
                       
 
                     </div>

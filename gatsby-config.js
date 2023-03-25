@@ -3,7 +3,8 @@ module.exports = {
 	siteMetadata: {
 		title: `Lakewood Dental`,
 		description: `Lakewood Dental has been serving the Lakewood, CA area for over 30 years.`,
-		author: `@jamesleedds`
+		author: `@jamesleedds`,
+		siteUrl: `https://dev.lakewooddental.com`
 	},
 	plugins: [
 		`gatsby-plugin-postcss`,
@@ -18,6 +19,7 @@ module.exports = {
 		},
 		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,
+		`gatsby-plugin-sitemap`,
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
