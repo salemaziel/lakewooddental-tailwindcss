@@ -1,10 +1,11 @@
 // gatsby-config.js
 module.exports = {
 	siteMetadata: {
-		title: `Lakewood Dental`,
+		title: `Lakewood Dental | Serving Lakewood, CA area for over 30 years.`,
 		description: `Lakewood Dental has been serving the Lakewood, CA area for over 30 years.`,
 		author: `@jamesleedds`,
-		siteUrl: `https://dev.lakewooddental.com`
+		siteUrl: `https://dev.lakewooddental.com`,
+		ogimage: `src/images/favion.png`
 	},
 	plugins: [
 		`gatsby-plugin-postcss`,
@@ -23,9 +24,10 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				name: `Lakewood Dental`,
+				name: `Lakewood Dental | Serving Lakewood, CA Area for over 30 years`,
 				short_name: `Lakewood Dental`,
 				start_url: `/`,
+				description: `Lakewood Dental has been serving the Lakewood, CA area for over 30 years.`,
 				background_color: `#4294C2`,
 				theme_color: `#1F3B53`,
 				display: `minimal-ui`,
