@@ -157,6 +157,9 @@ const handleCopy = () => {
 
               <p className="text-base leading-4 md:text-md ">Dental Advice</p>
             </Link>
+            <Link to="/new-patients" activeClassName=" underline text-[#4294C2]" className="flex items-center justify-start w-full py-3 pl-4 space-x-6 text-gray-600 hover:underline roundedfocus:outline-none ">
+              <p className="text-base leading-4 md:text-md ">New Patients</p>
+            </Link>
             <Link to="/contact-us" activeClassName=" underline text-[#4294C2]" className="flex items-center justify-start w-full py-3 pl-4 space-x-6 text-gray-600 hover:underline roundedfocus:outline-none ">
 
               <p className="text-base leading-4 md:text-md ">Contact Us</p>
@@ -172,16 +175,16 @@ const handleCopy = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="flex flex-col items-start justify-start w-full px-4 pb-5 mt-2 space-y-3 ">
-            <div className="flex items-center justify-start w-full p-3 py-1 pl-4 text-gray-600 rounded focus:outline-none ">
+          <div className="flex flex-row items-start justify-start w-full px-4 pb-3 mt-2 md:my-5 lg:mb-0 lg:mt-2 lg:pb-3 sm:flex-col ">
+            <div className="flex items-center justify-start w-full p-3 py-1 pl-4 space-x-6 text-gray-600 rounded md:py-4 lg:py-1 focus:outline-none ">
               <div className="flex items-center justify-start w-full">
 
-                <a href="tel:5628671753" className="mb-0 text-sm leading-4 cursor-pointer lg:text-md"> <span className="text-[#4294C2]">PH:  </span>   (562) 867-1753</a>
+                <a href="tel:5628671753" className="mb-0 text-sm font-semibold leading-4 tracking-wider cursor-pointer text-logo-blue-500 lg:text-md"> <span className="text-[#4294C2]">PH:  </span>   (562) 867-1753</a>
               </div>
             </div>
-            <div className="flex items-center justify-start w-full py-1 pl-4 space-x-6 text-gray-600 rounded focus:outline-none" data-tooltip-id="clickcopy" data-tooltip-content="Click to Copy">
+            <div className="flex items-center justify-start w-full p-3 py-1 pl-4 space-x-6 text-gray-600 rounded md:py-4 lg:py-1 focus:outline-none" data-tooltip-id="clickcopy" data-tooltip-content="Click to Copy">
             
-              <p className="mb-0 text-sm leading-4 cursor-pointer lg:text-md" onClick={handleCopy}> <span className={ (copySuccess ? "flex text-light-blue-500 font-semibold text-base  " : "hidden " ) + " text-[#4294C2]"}> {copySuccess}</span><span className="text-[#4294C2]" >FAX:  </span> (562) 867-2091</p>
+              <p className="mb-0 text-sm font-semibold leading-4 tracking-wider cursor-pointer lg:text-md text-logo-blue-500" onClick={handleCopy}> <span className={ (copySuccess ? "flex text-light-blue-500 font-semibold text-base  " : "hidden " ) + " text-[#4294C2]"}> {copySuccess}</span><span className="text-[#4294C2]" >FAX:  </span> (562) 867-2091</p>
               <Tooltip id="clickcopy" />
             </div>
           </div>
@@ -195,7 +198,7 @@ const handleCopy = () => {
           <div className="flex flex-col items-start justify-start w-full px-4 mt-2 space-x-6 space-y-3 text-left lg:pb-5 lg:mt-6 ">
             <div className="flex flex-col items-start justify-start w-full text-gray-600">
 
-              <p className="pb-4 pl-4 mb-0 text-base leading-4 text-left">Member of</p>
+              <p className="pb-4 pl-4 mt-0 mb-0 text-base leading-4 text-left md:mt-4 lg:mt-0">Member of</p>
               <div className="flex flex-wrap items-center w-full justify-evenly lg:justify-evenly">
                 <img src={ADA} alt="ADA" className="inline-flex pr-2" />
                 <img src={CDA} alt="CDA" className="inline-flex pl-2" />
@@ -205,7 +208,7 @@ const handleCopy = () => {
           </div>
           {/* End of Insurance Logos */}
           {/* follow us start */}
-          <div className="flex flex-col items-center justify-center w-full px-4 text-center">
+          <div className="flex flex-col items-center justify-center w-full px-4 py-0 text-center md:py-6 lg:py-0">
             <h3 className="text-lg md:mb-2"> Follow Us</h3>
             <div className="flex ">
             <a href="https://www.facebook.com/JamesLeeDDS" rel="noopener noreferrer" target="_blank">
