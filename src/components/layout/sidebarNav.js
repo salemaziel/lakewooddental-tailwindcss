@@ -175,7 +175,7 @@ const handleCopy = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="flex flex-row items-start justify-start w-full px-4 pb-3 mt-2 md:my-5 lg:mb-0 lg:mt-2 lg:pb-3 sm:flex-col ">
+          <div className="flex flex-col items-start justify-start w-full px-4 pb-3 mt-2 md:my-5 lg:mb-0 lg:mt-2 lg:pb-3 sm:flex-col ">
             <div className="flex items-center justify-start w-full p-3 py-1 pl-4 space-x-6 text-gray-600 rounded md:py-4 lg:py-1 focus:outline-none ">
               <div className="flex items-center justify-start w-full">
 
