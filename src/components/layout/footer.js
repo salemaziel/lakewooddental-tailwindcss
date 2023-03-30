@@ -11,7 +11,7 @@ import { Link } from 'gatsby';
 const Footer = () => (
     <>
         <div className=" bg-[#1F3B53] p-5 md:px-10 px-5">
-            <div className="container relative flex flex-col items-center justify-center w-full py-10 mx-auto md:flex-row md:justify-between">
+            {/*<div className="container relative flex flex-col items-center justify-center w-full py-10 mx-auto md:flex-row md:justify-between">
                 <div className="w-full md:w-2/5">
                     <h3 className="text-xl font-medium text-white "> Patient Referrals</h3>
                     <p className="mt-4 text-xs font-normal leading-5 text-white ">We thank you for expressing confidence in us by your kind referrals of friends and relatives! Please let us know if you have referred a friend or relative so that we may express our appreciation to you. </p>
@@ -41,7 +41,7 @@ const Footer = () => (
 
 
             </div>
-            <hr />
+            <hr />*/}
             <div className="container flex flex-col items-center justify-center py-10 mx-auto md:flex-row md:justify-between">
                 <div className="mb-4 border-gray-300 lg:mb-auto md:pr-10 lg:border-r-2">
                     <img src={footerlogo} alt="footerlogo" />
@@ -70,14 +70,14 @@ const Footer = () => (
             </div>
             <hr />
             <div className="flex flex-col pt-10">
-                <div className='flex flex-row justify-center mb-4'>
+                {/*<div className='flex flex-row justify-center mb-4'>
                     <a className="flex items-center justify-center text-white" href="https://www.facebook.com/JamesLeeDDS" rel="noopener nofollow" target="_blank">
                         <img className="mr-5 text-white" src={facebook} alt="footerlogo" />
                     </a>
                     <a className="flex items-center justify-center text-white" href="https://www.linkedin.com/pub/james-lee/74/316/415" rel="noopener nofollow" target="_blank">
                         <img src={linkedin} alt="footerlogo" />
                     </a>
-                </div>
+                </div>*/}
                 <div className="mt-3 text-center">
                     <Link to="/" className="mr-3 text-base font-normal text-white" href="">Home </Link>
                     {/*<a className="mr-3 text-base font-normal text-white" href=""> Doctor & Staff  </Link>*/}

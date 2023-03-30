@@ -208,23 +208,23 @@ const handleCopy = () => {
           </div>
           {/* End of Insurance Logos */}
           {/* follow us start */}
-          <div className="flex flex-col items-center justify-center w-full px-4 py-0 text-center md:py-6 lg:py-0">
+          {/*<div className="flex flex-col items-center justify-center w-full px-4 py-0 text-center md:py-6 lg:py-0">
             <h3 className="text-lg md:mb-2"> Follow Us</h3>
             <div className="flex ">
             <a href="https://www.facebook.com/JamesLeeDDS" rel="noopener noreferrer" target="_blank">
-            {/*<img className="mr-5 text-white" src={facebook} alt="footerlogo" />*/}
+            {/*<img className="mr-5 text-white" src={facebook} alt="footerlogo" /> * /}
             <FaFacebook size="1.5rem" className="mr-5 text-logo-blue-500" />
             
             </a>
             <a href="https://www.linkedin.com/pub/james-lee/74/316/415" rel="noopener noreferrer" target="_blank">
-            {/*<img src={linkedin} alt="footerlogo" />*/}
+            {/*<img src={linkedin} alt="footerlogo" /> * /}
             <FaLinkedin size="1.5rem" className="mr-5 text-logo-blue-500" />
             </a>
                </div>
          
                
         
-          </div>
+          </div>*/}
 
           <div className=" mt-0 py-0  flex bg-white justify-center text-center space-x-2 align-top items-center h-auto  px-3.5 w-full">
             <div className="flex flex-col items-center justify-center align-top">
