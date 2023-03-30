@@ -30,10 +30,7 @@ const Cosmetics = () => (
                     <p>
                         <h5 className=""> <strong>Dental bonding:</strong></h5> Dental bonding is a procedure that uses a tooth-colored resin material to repair minor chips, cracks, and gaps in your teeth. It can also be used to improve the appearance of discolored or misshapen teeth.</p>
                     <p>
-                        <h5 className=""> <strong>Invisalign: </strong></h5>  Invisalign is a clear aligner system that can be used to straighten crooked or misaligned teeth. It is a discreet alternative to traditional metal braces.</p>
-                    <p>
-                        <h5 className=""> <strong>Gum contouring:</strong></h5> Gum contouring is a procedure that reshapes your gum line to improve the appearance of your smile. It can be used to address a gummy smile, uneven gums, or other gum-related cosmetic concerns.</p>
-
+                        <h5 className=""> <strong>Porcelain Crowns: </strong></h5> Crowns are used to strengthen, cover, and change the shape and shade of discolored or damaged teeth. Our team is able to create custom crowns that match the size, shape, and color of your desired look. </p>
                     <p>
                     By offering these cosmetic dentistry services, we aim to help our patients achieve a smile that is healthy, functional, and aesthetically pleasing. Our team will work with you to determine the best cosmetic dentistry options for your individual needs and goals.</p>
 
