@@ -34,7 +34,7 @@ function Seo({ description, title, children, ogImage }) {
 			<meta name="description" content={metaDescription} />
 			<meta property="og:title" content={title} />
 			<meta property="og:description" content={metaDescription} />
-			<meta name="og:image" content={defaultogImage} />
+			<meta name="og:image" content={defaultogImage ? `${ogImage} | ${defaultogImage}` : ogImage } />
 			<meta property="og:type" content="website" />
 			<meta name="twitter:card" content="summary" />
 			<meta
