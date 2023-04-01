@@ -1,5 +1,5 @@
 import React from "react";
-import aboutimg from '../../../images/about.png';
+import aboutimg from '../../../images/2023/dentist-working-happy-patient-halfsize-crop.jpg';
 
 const S4about = () => {
     return(
@@ -17,7 +17,7 @@ const S4about = () => {
                   
                 </div>
                 <div className="w-full md:w-2/5 md:pr-4 lg:pr-0">
-                    <img className="w-full " src={aboutimg} alt="teamimg"/>
+                    <img className="w-full" src={aboutimg} alt="teamimg"/>
                 </div>
 
             </div>

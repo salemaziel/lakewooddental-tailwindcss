@@ -1,5 +1,5 @@
 import React from "react";
-import preventionimg from '../../../images/Services/serv1.png';
+import preventionimg from '../../../images/2023/dental-cleaning-prevention.jpg';
 
 import { Link } from 'gatsby';
 

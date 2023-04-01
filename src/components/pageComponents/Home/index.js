@@ -22,8 +22,8 @@ import S3teams from "./s3team";
 import S4about from "./s4about";
 import S5services from "./s5services";
 import service1img from '../../../images/service1.png';
-import service2img from '../../../images/services2.png';
-import service3img from '../../../images/service3.png';
+import service2img from '../../../images/2023/dentist-working-behind-patient.jpg';
+import service3img from '../../../images/2023/smiling-patient-cosmetics-2-crop.jpg';
 import S6testinomial from "./s6testinomial";
 import S7fees from "./s7fees";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import cosmeticsimg from '../../../images//Services/serv3.png';
+import cosmeticsimg from '../../../images/2023/dentist-holding-dentures-cosmetics.jpg';
 
 import { Link } from 'gatsby';
 

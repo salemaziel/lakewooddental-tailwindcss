@@ -1,5 +1,7 @@
 import React from "react";
-import fessimg from '../../../images/fees.png';
+//import fessimg from '../../../images/fees.png';
+import fessimg from '../../../images/2023/dentist-smiling-patient.jpg';
+
 
 import {Link} from "gatsby";
 
