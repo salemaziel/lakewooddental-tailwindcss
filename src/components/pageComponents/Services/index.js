@@ -8,8 +8,11 @@ import Implants from './s5service';
 import Whitening from './s7service';
 import Footer from '../../layout/footer';
 import SerBanner from './serbanner';
-import SerLast from './s6service';
+//import SerLast from './s6service';
 import servbottom from '../../../images/botbg.png';
+
+import CTA from "../../bottomCTA"
+
 function ServicesPage() {
     return (<>
    <SerHero
@@ -22,8 +25,8 @@ function ServicesPage() {
       <Cosmetics/>
       <Implants/>
       <Whitening/>
-      <SerLast
-         bgImage={servbottom}
+      <CTA
+          bgImage={servbottom}
       />
       <Footer/>
     </>  );

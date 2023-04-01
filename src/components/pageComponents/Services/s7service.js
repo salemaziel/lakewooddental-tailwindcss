@@ -1,7 +1,8 @@
 import React from "react";
-import cosmeticsimg from '../../../images//Services/serv3.png';
 
 import { Link } from 'gatsby';
+
+import { StaticImage } from "gatsby-plugin-image";
 
 
 const Whitening = () => {
@@ -23,7 +24,14 @@ const Whitening = () => {
                         </div>
 
                         <div className="w-full md:w-1/2">
-                            <img className="w-full " src={cosmeticsimg} alt="teamimg" />
+                            <StaticImage
+                        src="../../../images/Services/serv3.png"
+                        alt="Teeth Whitening"
+                        formats={["auto", "webp"]}
+                        className="w-full h-full"
+                        imgclassName="w-full h-full"
+                        placeholder="blurred"
+                        /> 
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,6 @@
 import React from "react";
-//import fessimg from '../../../images/fees.png';
-import fessimg from '../../../images/2023/dentist-smiling-patient.jpg';
 
+import { StaticImage } from "gatsby-plugin-image";
 
 import {Link} from "gatsby";
 
@@ -12,7 +11,15 @@ const S7fees = () => {
             <div  className="container relative pt-12 mx-auto">
             <div className="flex flex-col items-center w-full md:flex-row">
                 <div className="w-full xl:w-3/5">
-                    <img className="w-full px-5 pt-5" src={fessimg} alt="teamimg"/>
+                    <StaticImage
+                        src="../../../images/2023/dentist-smiling-patient.jpg"
+                        alt="Dentist with Smiling Patient"
+                        formats={["auto", "webp"]}
+                        className="h-full"
+                        imgclassName="w-full h-full px-5 pt-5"
+                        placeholder="blurred"
+                        /> 
+                    
                 </div>
                 <div className="flex  flex-col text-start   xl:w-2/5 w-full   bg-white xl:absolute left-1/2  lg:top-[30%]  p-9  ">
                   
@@ -25,10 +32,6 @@ const S7fees = () => {
                 </div>
 
             </div>
-            {/*<div className="flex flex-col justify-center md:flex-row">
-            <button type="button" className="mt-5 text-[#1F3B53] bg-white border-[#1F3B53] border-2 hover:bg-logo-blue-500 hover:text-white focus:outline-logo-blue-500 hover:border-logo-blue-500 focus:ring-4 focus:ring-logo-blue-500 font-medium rounded-full text-base uppercase px-14 py-2.5 mr-2 mb-2 dark:bg-[#1F3B53] dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Fees & Insurance</button>
-            <button type="button" className="mt-5 text-white bg-[#1F3B53] hover:bg-white hover:text-logo-blue-500 focus:outline-logo-blue-500 focus:ring-4 border-logo-blue-500 hover:border-logo-blue-500 border-2 font-medium rounded-full text-base uppercase px-14 py-2.5 mr-2 mb-2 dark:bg-[#1F3B53] dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Dental Advice</button>
-            </div>*/}
             </div>
         </section>
         

@@ -1,7 +1,7 @@
 import React from "react";
-import implantsimg from '../../../images/Services/serv4.png';
 
 import { Link } from 'gatsby';
+import { StaticImage } from "gatsby-plugin-image";
 
 
 const Implants = () => {
@@ -10,11 +10,18 @@ const Implants = () => {
         <section className="relative left-0 w-full h-full bg-[#EEF5FF]">
             <div  className="container relative mx-auto">
             <div className="flex flex-col items-center w-full md:flex-row">
-            <div className="w-full md:w-1/2">
-                    <img className="w-full " src={implantsimg} alt="teamimg"/>
+            <div className="order-2 w-full md:w-1/2 md:order-1">
+                    <StaticImage
+                        src="../../../images/Services/serv4.png"
+                        alt="Dental Implants"
+                        formats={["auto", "webp"]}
+                        className="w-full h-full"
+                        imgclassName="w-full h-full"
+                        placeholder="blurred"
+                        /> 
                 </div>
                
-                <div className="w-full p-10 md:w-1/2 ">
+                <div className="order-1 w-full p-10 md:w-1/2 md:order-2">
                     <h2 className="mb-3 text-4xl font-semibold leading-10" >Implants</h2>
                   
                     <p className="pr-12 mt-8 text-base font-normal leading-9 text-black">

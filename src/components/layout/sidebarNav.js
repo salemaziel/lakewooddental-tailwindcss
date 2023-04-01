@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import { Link, navigate, } from "gatsby";
+import { Link } from "gatsby";
 import Logo from "../../images/logo.svg";
 
 
@@ -11,7 +11,7 @@ import CarePay from "../../images/carecredit.svg";
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
 
-import { FaFacebook, FaLinkedin } from 'react-icons/fa';
+//import { FaFacebook, FaLinkedin } from 'react-icons/fa';
 
 
 

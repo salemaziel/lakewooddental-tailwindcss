@@ -1,5 +1,6 @@
 import React from "react";
-import aboutimg from '../../../images/2023/dentist-working-happy-patient-halfsize-crop.jpg';
+
+import { StaticImage } from "gatsby-plugin-image"
 
 const S4about = () => {
     return(
@@ -17,7 +18,14 @@ const S4about = () => {
                   
                 </div>
                 <div className="w-full md:w-2/5 md:pr-4 lg:pr-0">
-                    <img className="w-full" src={aboutimg} alt="teamimg"/>
+                    <StaticImage
+                        src="../../../images/2023/dentist-working-happy-patient-halfsize-crop.jpg"
+                        alt="About Us"
+                        formats={["auto", "webp"]}
+                        className="h-full"
+                        imgclassName="w-full"
+                        placeholder="blurred"
+                        /> 
                 </div>
 
             </div>

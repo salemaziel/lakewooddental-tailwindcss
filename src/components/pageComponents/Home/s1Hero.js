@@ -16,8 +16,8 @@ const Hero = (props) => {
                         <h1 className="py-5 text-4xl font-semibold leading-loose tracking-widest text-white font-heading md:text-6xl font-poppins">Lakewood Dental Care</h1>
                         <p className="max-w-md mx-auto mb-10 text-2xl leading-8 tracking-wide text-white uppercase md:max-w-4xl">Proudly Serving the Lakewood area for over 20 years.</p>
 
-                        <a className="inline-block text-white" href="#">
-                            <svg width={26} height={30} viewBox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 1V29M13 29L25 17M13 29L1 17" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></a>
+                        <span className="inline-block text-white" >
+                            <svg width={26} height={30} viewBox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 1V29M13 29L25 17M13 29L1 17" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg></span>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import React from "react";
-import teamImg from '../../../images/teamim.png';
+
+import { StaticImage } from "gatsby-plugin-image"
 
 const S3teams = () => {
     return(
@@ -8,7 +9,14 @@ const S3teams = () => {
             <div  className="container relative px-4 py-12 mx-auto">
             <div className="flex flex-col items-center w-full md:flex-row">
                 <div className="w-full md:w-2/5">
-                    <img className="w-full p-5" src={teamImg} alt="teamimg"/>
+                    <StaticImage
+                        src="../../../images/teamim.png"
+                        alt="Head Dentist James Lee"
+                        formats={["auto", "webp"]}
+                        className="h-full px-5"
+                        imgclassName="w-full h-full"
+                        placeholder="blurred"
+                        /> 
                 </div>
                 <div className="w-full md:w-3/5">
                     <h2 className="text-4xl font-semibold leading-10 " >Meet Our Head Dentist</h2>
@@ -16,7 +24,6 @@ const S3teams = () => {
                     <p className="mt-8 text-base font-normal leading-9 text-black">
                   <span className="text-[#1F3B53] font-semibold"> James Lee </span>   is a graduate of the UCLA School of Dentistry and has been practicing in our Lakewood practice since 1981. Dr. Lee has extensive experience in all aspects of clinical dentistry, including endodontic (root canal) treatment and crown and bridge restorations. Dr. Lee’s leisure pursuits have included hiking, sailing, and Aikido.
                     </p>
-                    {/*<button type="button" className="mt-5 text-white bg-[#1F3B53] hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-base uppercase px-20 py-2.5 mr-2 mb-2 dark:bg-[#1F3B53] dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Doctor & Staff</button>*/}
                 </div>
 
             </div>
