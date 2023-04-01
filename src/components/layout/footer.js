@@ -87,7 +87,7 @@ const Footer = () => (
                     <Link to="/dental-advice" className="mr-3 text-base font-normal text-white" href="">Dental Advice </Link>
 
                 </div>
-                <div className="mt-3 text-xs text-center text-gray-300"> <p> 2023 © <a href="">Lakewood Dental  </a> . All rights reserved.</p> </div>
+                <div className="mt-3 text-xs text-center text-gray-300"> <p> {new Date().getFullYear()} © <span>Lakewood Dental  </span> . All rights reserved.</p> </div>
 
             </div>
 
