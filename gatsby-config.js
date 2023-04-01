@@ -5,7 +5,7 @@ module.exports = {
 		description: `Lakewood Dental has been serving the Lakewood, CA area for over 30 years.`,
 		author: `@jamesleedds`,
 		siteUrl: `https://dev.lakewooddental.com`,
-		ogimage: `./src/images/favion.png`
+		ogimage: `https://dev.lakewooddental.com/static/images/favion.png`
 	},
 	plugins: [
 		`gatsby-plugin-postcss`,
