@@ -6,6 +6,6 @@
 
 // You can delete this file if you're not using it
 import './src/styles/global.css';
-import "@fontsource/poppins";
-import "@fontsource/raleway";
-import "@fontsource/inter";
+import '@fontsource/poppins';
+import '@fontsource/raleway';
+import '@fontsource/inter';

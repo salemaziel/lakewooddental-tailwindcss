@@ -8,7 +8,7 @@
 		sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 	--font-mono: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
 		'Courier New', monospace;
-/*	--font-lg: 18px;
+	/*	--font-lg: 18px;
 	--font-md: 16px;
 	--font-sm: 14px;
 	--font-sx: 12px;*/
@@ -20,7 +20,7 @@
 	--space-3: 16px;
 	--space-4: 24px;
 	--space-5: 32px;
-/*	--space-6: 64px;
+	/*	--space-6: 64px;
 	--size-content: 54rem;
 	--size-gutter: var(--space-5);
 	--size-gap: var(--space-6);*/
@@ -122,8 +122,7 @@ fieldset,
 ul,
 ol,
 dl,
-dd
- {
+dd {
 	margin: 0;
 	padding: 0;
 	margin-bottom: var(--space-4);

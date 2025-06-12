@@ -25,11 +25,10 @@ const Layout = ({ children }) => {
 
 	return (
 		<>
-			<Header siteTitle={data.site.siteMetadata?.title || `Title`}>
-				
-			</Header>
-			<main className='mx-0 lg:ml-72'>{children}</main>
-			
+			<Header
+				siteTitle={data.site.siteMetadata?.title || `Title`}
+			></Header>
+			<main className="mx-0 lg:ml-72">{children}</main>
 		</>
 	);
 };

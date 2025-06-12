@@ -2,27 +2,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@tailwind variants; 
-
+@tailwind variants;
 
 :root {
 	--border-radius: 4px;
 	--color-text: #323232;
-	--color-primary: #1F3B53;
+	--color-primary: #1f3b53;
 	--color-code-bg: #fff4db;
 	--color-code: #8a6534;
-	--font-sans: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
-		sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+	--font-sans: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 	--font-mono: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
 		'Courier New', monospace;
-/*	--font-lg: 18px;
+	/*	--font-lg: 18px;
 	--font-md: 16px;
 	--font-sm: 14px;
 	--font-sx: 12px;*/
 	--line-height-loose: 1.75;
 	--line-height-normal: 1.5;
 	--line-height-dense: 1.1;
-/*	--space-1: 4px;
+	/*	--space-1: 4px;
 	--space-2: 8px;
 	--space-3: 16px;
 	--space-4: 24px;
@@ -33,10 +32,8 @@
 	--size-gap: var(--space-6);
 }
 
-
-
 * {
-    font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -66,7 +63,6 @@ h1 {
 	line-height: var(--line-height-dense);
 	letter-spacing: -0.01em;
 }
-
 
 img {
 	border-style: none;
@@ -145,8 +141,7 @@ fieldset,
 ul,
 ol,
 dl,
-dd
- {
+dd {
 	margin: 0;
 	padding: 0;
 	margin-bottom: 2rem;
@@ -202,11 +197,11 @@ li > p {
 	margin-bottom: calc(2rem / 2);
 }
 p {
-/*	max-width: 680px;*/
-    margin-bottom: 2rem;
+	/*	max-width: 680px;*/
+	margin-bottom: 2rem;
 }
 a > p {
-    margin-bottom: inherit;
+	margin-bottom: inherit;
 }
 code {
 	font-size: 0.875rem;

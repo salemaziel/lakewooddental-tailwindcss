@@ -1,6 +1,6 @@
 import React from 'react';
 import SerHero from './serhero';
-import BG from "../../../images/serhero.png";
+import BG from '../../../images/serhero.png';
 import Prevention from './sers2';
 import Restoration from './s3service';
 import Cosmetics from './s4service';
@@ -11,25 +11,22 @@ import SerBanner from './serbanner';
 //import SerLast from './s6service';
 import servbottom from '../../../images/botbg.png';
 
-import CTA from "../../bottomCTA"
+import CallToAction from '../../bottomCTA';
 
 function ServicesPage() {
-    return (<>
-   <SerHero
-        bgImage={BG}
-        pageTitle="Services"
-      />
-      <SerBanner/>
-      <Prevention/>
-      <Restoration/>
-      <Cosmetics/>
-      <Implants/>
-      <Whitening/>
-      <CTA
-          bgImage={servbottom}
-      />
-      <Footer/>
-    </>  );
+	return (
+		<>
+			<SerHero bgImage={BG} pageTitle="Services" />
+			<SerBanner />
+			<Prevention />
+			<Restoration />
+			<Cosmetics />
+			<Implants />
+			<Whitening />
+			<CallToAction bgImage={servbottom} />
+			<Footer />
+		</>
+	);
 }
 
 export default ServicesPage;
