@@ -10,6 +10,8 @@ import CarePay from '../../images/carecredit.svg';
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
 
+import { StaticImage } from 'gatsby-plugin-image';
+
 //function SidebarNav(props) {
 const SidebarNav = props => {
 	const [show, setShow] = useState(false);
@@ -64,10 +66,18 @@ const SidebarNav = props => {
 						className="flex items-center justify-between space-x-3"
 					>
 						<div className="block w-full">
-							<img
+							{/*<img
 								src={Logo}
 								alt="Logo"
-								className="block h-auto w-44" /*style={{width: '160px'}}*/
+								className="block h-auto w-44" /*style={{width: '160px'}}* /
+							/> */}
+							<StaticImage
+								src="../../images/logo.svg"
+								alt="Lakewood Dental Logo"
+								formats={['auto', 'webp', 'avif']}
+								loading="lazy"
+								decoding="async"
+								className="block h-auto w-44"
 							/>
 						</div>
 						<p className="text-2xl leading-6 sr-only ">
@@ -176,9 +186,17 @@ const SidebarNav = props => {
 							}
 						>
 							<div className="flex justify-between w-full">
-								<img
+								{/*<img
 									src={Logo}
 									alt="Logo"
+									className="block h-auto w-44"
+								/> */}
+								<StaticImage
+									src="../../images/logo.svg"
+									alt="Lakewood Dental Logo"
+									formats={['auto', 'webp', 'avif']}
+									loading="lazy"
+									decoding="async"
 									className="block h-auto w-44"
 								/>
 								<div
@@ -408,20 +426,45 @@ const SidebarNav = props => {
 									Member of
 								</p>
 								<div className="flex flex-wrap items-center w-full justify-evenly lg:justify-evenly">
-									<img
+									{/*<img
 										src={ADA}
 										alt="ADA"
 										className="inline-flex pr-2"
+									/>*/}
+									<StaticImage
+										src="../../images/ada-logo.png"
+										alt="American Dental Association (ADA) Member"
+										className="inline-flex pr-2"
+										formats={['auto', 'webp', 'avif']}
+										loading="eager"
+										decoding="async"
 									/>
-									<img
+									{/*<img
 										src={CDA}
 										alt="CDA"
 										className="inline-flex pl-2"
+									/>*/}
+									<StaticImage
+										src="../../images/cda-logo.png"
+										alt="California Dental Association (CDA) Member"
+										className="inline-flex pl-2"
+										formats={['auto', 'webp', 'avif']}
+										loading="eager"
+										decoding="async"
 									/>
-									<img
+
+									{/*<img
 										src={Harbor}
 										alt="Harbor"
 										className="inline-flex px-2 py-4"
+									/> */}
+									<StaticImage
+										src="../../images/harbor-logo.png"
+										alt="Harbor Dental"
+										className="inline-flex px-2 py-4"
+										formats={['auto', 'webp', 'avif']}
+										loading="eager"
+										decoding="async"
 									/>
 								</div>
 							</div>
@@ -448,10 +491,18 @@ const SidebarNav = props => {
 
 						<div className=" mt-0 py-0  flex bg-white justify-center text-center space-x-2 align-top items-center h-auto  px-3.5 w-full">
 							<div className="flex flex-col items-center justify-center align-top">
-								<img
+							{/*	<img
 									src={CarePay}
 									alt="CarePayment"
 									className="p-4 lg:p-4"
+								/> */}
+								<StaticImage
+									src="../../images/carecredit.svg"
+									alt="CareCredit"
+									className="p-4 lg:p-4"
+									formats={['auto', 'webp', 'avif']}
+									loading="eager"
+									decoding="async"
 								/>
 								<a
 									href="https://www.carecredit.com/Pay/545QMH/&sitecode=B3CPLAdToolkitPMPCard"

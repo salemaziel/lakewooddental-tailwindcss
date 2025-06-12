@@ -1,5 +1,6 @@
 import * as React from 'react';
-import footerlogo from '../../images/footer-logo.png';
+//import footerlogo from '../../images/footer-logo.png';
+import { StaticImage } from 'gatsby-plugin-image';
 
 import { Link } from 'gatsby';
 
@@ -8,7 +9,13 @@ const Footer = () => (
 		<div className=" bg-[#1F3B53] p-5 md:px-10 px-5">
 			<div className="container flex flex-col items-center justify-center py-10 mx-auto md:flex-row md:justify-between">
 				<div className="mb-4 border-gray-300 lg:mb-auto md:pr-10 lg:border-r-2">
-					<img src={footerlogo} alt="footerlogo" />
+					<StaticImage 
+					src="../../images/footer-logo.png" 
+					alt="footerlogo"
+					formats={['auto', 'webp', 'avif']}
+					loading="lazy"
+					decoding="async"
+					/>
 				</div>
 
 				<div className="flex flex-col mt-3 text-base border-gray-300 lg:flex-row lg:border-r-2 md:pr-10 md:mt-0">
