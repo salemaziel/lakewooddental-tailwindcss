@@ -12,10 +12,11 @@ const S3teams = () => {
 							<StaticImage
 								src="../../../images/teamim.png"
 								alt="Head Dentist James Lee"
-								formats={['auto', 'webp']}
+								formats={['auto', 'webp', 'avif']}
 								className="h-full px-5"
-								imgclassName="w-full h-full"
+								imgClassName="w-full h-full"
 								placeholder="blurred"
+								loading="lazy"
 							/>
 						</div>
 						<div className="w-full md:w-3/5">
@@ -35,7 +36,7 @@ const S3teams = () => {
 								since 1981. Dr. Lee has extensive experience in
 								all aspects of clinical dentistry, including
 								endodontic (root canal) treatment and crown and
-								bridge restorations. Dr. Lee’s leisure pursuits
+								bridge restorations. Dr. Lee's leisure pursuits
 								have included hiking, sailing, and Aikido.
 							</p>
 						</div>
