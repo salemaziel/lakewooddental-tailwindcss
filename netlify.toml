@@ -4,6 +4,7 @@
 [build.environment]
   NODE_VERSION = "22"
   NPM_FLAGS= "--legacy-peer-deps"
+  
 [[headers]]
   for = "/*"
   [headers.values]
@@ -43,7 +44,7 @@
       vibrate=(self),
       vr=(self)
     '''
-    Content-Security-Policy = "connect-src 'self' blob: https://github.com https://identity.netlify.com https://api.github.com https://ocsp.digicert.com; form-action 'self'; font-src 'self' blob: data ; frame-src 'self' https://www.google.com/ https://maps.googleapis.com; img-src 'self' blob: data: https://api.netlify.com; manifest-src 'self'; media-src 'self' blob: ; object-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; script-src-elem 'self' blob: 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://github.com https://identity.netlify.com; prefetch-src 'self';  worker-src 'self';"
+    Content-Security-Policy = "connect-src 'self' blob: https://github.com https://identity.netlify.com https://api.github.com https://ocsp.digicert.com; form-action 'self'; font-src 'self' blob: data:; frame-src 'self' https://www.google.com/ https://maps.googleapis.com; img-src 'self' blob: data: https://api.netlify.com; manifest-src 'self'; media-src 'self' blob: ; object-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; script-src-elem 'self' blob: 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://github.com https://identity.netlify.com; prefetch-src 'self';  worker-src 'self';"
  
 [[headers]]
   for = "/static/*"

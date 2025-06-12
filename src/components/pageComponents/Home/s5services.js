@@ -24,7 +24,12 @@ const S5services = props => {
 								className="flex flex-col justify-center mx-auto text-center max-w-xxs sm:max-w-sm"
 							>
 								<div className="flex items-center justify-center flex-shrink-0 mx-auto text-white rounded-md ">
-									<img src={item.Icon} alt={item.IconAlt} />
+									<img 
+									src={item.Icon} 
+									alt={item.IconAlt}
+									loading='lazy'
+									
+									/>
 								</div>
 								<div>
 									<h4 className="mb-2 mt-2 text-lg text-[#1F3B53] font-heading font-semibold">
